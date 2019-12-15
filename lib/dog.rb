@@ -1,10 +1,11 @@
 # Your code goes here!
+require "pey"
 class Dog
 
   def initialize (name,bark)
     @name, @bark = name, bark
   end
-  
+
   def name=(name)
     @name = name
   end
@@ -20,7 +21,7 @@ class Dog
 def bark
   @bark
 end
-
+binding.pry
 end
 
 fido = Dog.new("Fido")
