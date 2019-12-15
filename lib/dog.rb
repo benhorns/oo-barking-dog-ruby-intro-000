@@ -1,20 +1,23 @@
+# Your code goes here!
 class Dog
-  def name=(dogs_name)
-    @name = dogs_name
-  end
-
-  def name
-    @name
-  end
-
+def initialize(name,bark)
+  @name = name
+  @bark = bark
 end
 
-class Dog
-  def bark
-    puts "woof!"
-  end
+def bark=(bark)
+  @bark = bark
+end
 
-end 
+def bark
+  @bark
+end
+
+def name=(name)
+  @name = name
+end
+
+end
 fido = Dog.new("Fido")
 fido.name_set(:@name, "Fido")
 # => "Fido"
