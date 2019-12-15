@@ -27,6 +27,4 @@ end
 
 fido = Dog.new("Fido" , "Bark")
 fido.name
-
 fido.bark
-puts "Woof!"
