@@ -2,7 +2,7 @@
 require "pry"
 class Dog
 
-  def initialize (name,bark)
+  def initialize (name)
     @name = name
   end
 
@@ -14,12 +14,7 @@ class Dog
     @name = name
   end
 
-def bark
-  puts "Woof!"
-end
 #binding.pry
 end
 
 fido = Dog.new("Fido")
-
-fido.bark
