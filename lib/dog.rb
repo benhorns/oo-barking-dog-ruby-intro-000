@@ -3,7 +3,8 @@ require "pry"
 class Dog
 
   def initialize (name,bark)
-    @name, @bark = name, bark
+    @name = name
+    @bark = bark
   end
 
   def name=(name)
@@ -21,7 +22,7 @@ class Dog
 def bark
   @bark
 end
-binding.pry
+#binding.pry
 end
 
 fido = Dog.new("Fido")
