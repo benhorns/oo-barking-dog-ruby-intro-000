@@ -13,6 +13,13 @@ class Dog
     @name = name
   end
 
+def bark
+  @bark
+end
+
+def bark=(bark)
+  @bark = bark
 end
 
 fido = Dog.new("Fido")
+fido.name
