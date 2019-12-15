@@ -21,7 +21,7 @@ def name=(name)
 end
 
 end
-fido = Dog.new("Fido")
+fido = Dog.new("Fido","Bark")
 fido.name_set(:@name, "Fido")
 # => "Fido"
 
