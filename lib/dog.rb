@@ -20,6 +20,7 @@ end
 def bark=(bark)
   @bark = bark
 end
+end
 
 fido = Dog.new("Fido")
 fido.name
