@@ -13,17 +13,19 @@ class Dog
     @name = name
   end
 
+  def bark=(bark)
+    @bark = bark
+  end
+
 def bark
   @bark
 end
 
-def bark=(bark)
-  @bark = bark
-end
+
 end
 
 fido = Dog.new("Fido")
 fido.name
 
 fido.bark
-woof!
+puts "Woof!""
