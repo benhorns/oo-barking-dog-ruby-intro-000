@@ -1,19 +1,24 @@
-# Your code goes here!
-require "pry"
 class Dog
-def initialize (dog_name)
-    @dog_name = dog_name
+  def initialize(name, bark="Woof!")
+    @name = name
+    @breed = breed
+  end
+
+  def name=(name)
+    @name = name
   end
 
   def name
-    @dog_name
+    @name
   end
 
-  def name=(dog_name)
-    @dog_name = dog_name
+  def bark=(bark)
+    @bark = bark
   end
 
-#binding.pry
+  def bark
+    @bark
+  end
 end
 
-fido = Dog.new("Fido")
+fido = Dog.new ["Fido", "Pug"]
