@@ -21,7 +21,6 @@ class Dog
 def bark
   @bark
 end
-binding.pry
 end
 
 fido = Dog.new("Fido")
