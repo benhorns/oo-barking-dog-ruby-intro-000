@@ -20,7 +20,7 @@ end
 #binding.pry
 end
 
-fido = Dog.new
+fido = Dog.new("Fido")
 
 fido.name = "Fido"
 
