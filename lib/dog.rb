@@ -20,6 +20,6 @@ puts "Woof!"
 
 end
 
-fido = Dog.new 
+fido = Dog.new
 fido.name = "Fido"
-  binding.pry
+binding.pry
