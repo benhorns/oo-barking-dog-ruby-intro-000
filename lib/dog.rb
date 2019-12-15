@@ -15,4 +15,4 @@ class Dog
 
 end
 
-fido = Person.new("Fido")
+fido = Dog.new("Fido")
