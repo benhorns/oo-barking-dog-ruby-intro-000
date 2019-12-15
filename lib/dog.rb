@@ -1,5 +1,3 @@
-require "pry"
-
 class Dog
   def initialize(name)
     @name = name
@@ -21,4 +19,3 @@ puts "Woof!"
 end
 
 fido = Dog.new ["Fido"]
-binding.pry
