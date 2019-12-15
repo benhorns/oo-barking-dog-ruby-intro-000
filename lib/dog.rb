@@ -23,4 +23,3 @@ end
 fido = Dog.new("Fido")
 
 fido.bark
-woof!
