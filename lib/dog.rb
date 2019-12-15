@@ -25,7 +25,7 @@ end
 #binding.pry
 end
 
-fido = Dog.new("Fido")
+fido = Dog.new("Fido" , "Bark")
 fido.name
 
 fido.bark
