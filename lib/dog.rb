@@ -15,7 +15,7 @@ def name
 end
 
 def bark=(bark)
-  @bark = breed
+  @bark = bark
 end
 
 def bark
