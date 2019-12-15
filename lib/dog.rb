@@ -25,6 +25,12 @@ end
 #binding.pry
 end
 
-fido = Dog.new("Fido" , "Bark")
+fido = Dog.new
+
+fido.name = "Fido"
+
 fido.name
+# => "Fido"
+
 fido.bark
+woof!
