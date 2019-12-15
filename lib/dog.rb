@@ -1,10 +1,25 @@
+# Your code goes here!
+require "pry"
 class Dog
-  attr_accessor :name
 
-  def bark
-    puts "woof!"
+  def initialize (name)
+    @name = name
   end
+
+  def name
+    @name
+  end
+
+  def name=(name)
+    @name = name
+  end
+
+def bark
+  puts "Woof!"
 end
+#binding.pry
+end
+
 fido = Dog.new("Fido")
 
 fido.bark
