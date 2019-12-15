@@ -9,7 +9,7 @@ def bark=(bark)
   @bark = bark
 end
 
-def breed
+def bark
   @bark
 end
 
