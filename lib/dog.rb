@@ -24,7 +24,7 @@ end
 end
 
 fido = Dog.new
-fido.name(:@name, "Fido")
+fido.name_set(:@name, "Fido")
 # => "Fido"
 
 fido.bark
