@@ -5,13 +5,18 @@ def initialize(name,bark)
   @bark = bark
 end
 
-def bark
+def bark=(bark)
+  @bark = bark
+end
+
+def breed
   @bark
 end
 
 def name=(name)
   @name = name
 end
+
 end
 fido = Dog.new("Fido")
 fido.name_set(:@name, "Fido")
