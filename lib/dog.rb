@@ -21,6 +21,5 @@ puts "Woof!"
 end
 
 fido = Dog.new ("Fido")
-fido.bark
 
   binding.pry
