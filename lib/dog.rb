@@ -16,9 +16,11 @@ require "pry"
   def bark
 puts "Woof!"
   end
-  binding.pry
+
 end
 
 fido = Dog.new ("Fido")
 fido.name = "Fido"
 fido.bark
+
+  binding.pry
