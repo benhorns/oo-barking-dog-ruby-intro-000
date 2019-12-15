@@ -24,8 +24,7 @@ end
 end
 
 fido = Dog.new
-fido.name
-fido.name = "Fido"
+fido.name(:@name, "Fido")
 # => "Fido"
 
 fido.bark
