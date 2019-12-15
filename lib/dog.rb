@@ -1,6 +1,8 @@
 # Your code goes here!
 class Dog
 
+  fido.name_set(:@name, "Fido")
+
 def initialize (name,bark)
   @name = name
   @bark = bark
