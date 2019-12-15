@@ -1,5 +1,6 @@
-class Dog
 require "pry"
+
+class Dog
   def initialize(name)
     @name = name
 
